@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+
+    
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <!--Pantalla-->
+            <div class="display">
+                <div class="valor-superior" data-valor-superior></div>
+                <div class="valor-inferior" data-valor-inferior></div>
+            </div>
+
+            <!--Botones-->
+            <button data-all-clear class="span2" ><svg width="64px" height="64px" viewBox="0 0 1000 1000" data-name="Layer 2" id="Layer_2" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:none;stroke:#020202;stroke-linecap:round;stroke-miterlimit:10;stroke-width:20;}</style></defs><path class="cls-1" d="M717.37,353.41l-30,390.71a61.19,61.19,0,0,1-61.19,61.19H373.85a61.19,61.19,0,0,1-61.19-61.19l-30-390.71"></path><line class="cls-1" x1="600.9" x2="418.7" y1="314.08" y2="314.08"></line><path class="cls-1" d="M351.57,314.08H222V276.19a28,28,0,0,1,28-28H438.35c0-.1,0-.19,0-.28,0-29.4,27.61-53.24,61.66-53.24s61.66,23.84,61.66,53.24c0,.09,0,.18,0,.28H750a28,28,0,0,1,28,28v37.89H671.37"></path><line class="cls-1" x1="397.36" x2="397.36" y1="455.63" y2="700.74"></line><line class="cls-1" x1="500" x2="500" y1="455.63" y2="700.74"></line><line class="cls-1" x1="602.64" x2="602.64" y1="455.63" y2="700.74"></line></g></svg></button>
+            <button data-delete> <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.4800000000000001"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12.5 10.5L14 12M14 12L15.5 13.5M14 12L15.5 10.5M14 12L12.5 13.5M9.82843 16H17C17.9428 16 18.4142 16 18.7071 15.7071C19 15.4142 19 14.9428 19 14V10C19 9.05719 19 8.58579 18.7071 8.29289C18.4142 8 17.9428 8 17 8H9.82843C9.41968 8 9.2153 8 9.03153 8.07612C8.84776 8.15224 8.70324 8.29676 8.41421 8.58579L6.41421 10.5858C5.74755 11.2525 5.41421 11.5858 5.41421 12C5.41421 12.4142 5.74755 12.7475 6.41421 13.4142L8.41421 15.4142C8.70324 15.7032 8.84776 15.8478 9.03153 15.9239C9.2153 16 9.41968 16 9.82843 16Z" stroke="#464455" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+            <button data-operador>/</button>
+
+            <button data-numero>1</button>
+            <button data-numero>2</button>
+            <button data-numero>3</button>
+
+            <button data-operador>*</button>
+
+            <button data-numero>4</button>
+            <button data-numero>5</button>
+            <button data-numero>6</button>
+
+            <button data-operador>+</button>
+
+            <button data-numero>7</button>
+            <button data-numero>8</button>
+            <button data-numero>9</button>
+
+            <button data-operador>-</button>
+            <button data-numero>.</button>
+            <button data-numero>0</button>
+            <button class="span2" data-igual>=</button>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
